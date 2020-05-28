@@ -138,7 +138,7 @@ dimnames(tempWrite) <- list(
 	"METASTASIS_48subjects_no_weight", 
 	"Survival_48subjects_weight", 
 	"METASTASIS_48subjects_weight"), 
-	c("P", "OR", "Lower .95", "upper .95")
+	c("OR", "Lower .95", "upper .95","P")
 )
 write.csv(tempWrite, file = "../table/table4Demo.csv", quote = FALSE)
 
